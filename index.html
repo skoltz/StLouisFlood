@@ -24,7 +24,7 @@
     	<div class="container intro-text">
 
     	<p id="main-page-intro"> 
-            St. Louis, or ''The River City,'' and its surrounding counties have one of the richest histories in all of North America, in large part due to the resources provided by the major river systems that come together in this area. However, the same waterways upon which St. Louis is built also cause semi-regular and catastrophic flooding events. 
+            St. Louis, or 'The River City,' and its surrounding counties have one of the richest histories in all of North America, in large part due to the resources provided by the major river systems that come together in this area. However, the same waterways upon which St. Louis is built also cause semi-regular and catastrophic flooding events. 
             Climate models predict that both the intensity and frequency of these extreme floods will continue to increase over the next 50-100 years due to more heavy precipitation events. Moreover, St. Louis has a legacy of being one of the most heavily contaminated urban areas in the country. The region is host to hundreds of millions of pounds of chemical, heavy metal, and radioactive waste from industrial activity. More frequent flooding and other extreme weather events will likely increase exposure risks to the people of St. Louis with negative impacts on public health.
             <br>
             Our objective was to create a mapping tool that would help residents understand where the greatest potential risks of exposure are in light of increasing flooding events. The resource that we developed highlights the number of St. Louisans that live and work near contamination sites within the floodplain, as well as the public parks that may be contaminated or have high likelihood of becoming contaminated in the future. Our hope is that our maps will also help government officials prioritize clean-up of the most heavily contaminated and populated areas within the floodplain in order to minimize exposure risks to the people of St. Louis. </p>
@@ -35,28 +35,38 @@
     <div id="maps" class="col s12 main-info">
         <div class="map-btn container" data-toggle="map-buttons">
             <button id="btn-map1" data-target="map_1" class="btn btn btn-primary" type="button">St. Louis</button>
-            <button id="btn-map2" data-target="map_2" class="btn btn btn-primary" type="button">Contaminations</button>
+            <button id="btn-map2" data-target="map_2" class="btn btn btn-primary" type="button">Toxic Sites</button>
             <button id="btn-map3" data-target="map_3" class="btn btn btn-primary" type="button">Live</button>
             <button id="btn-map4" data-target="map_4" class="btn btn btn-primary" type="button">Work</button>
             <button id="btn-map4" data-target="map_5" class="btn btn btn-primary" type="button">Play</button>
         </div>
 
         <div class="container map-container" id="map_1">
-            <img class='map-image' src='images/1_cities2.jpg'>
+            <h3 class="map-title"> Municipalities in the St. Louis Metropolitan Area</h3>
+            <img class="map-image" src='images/1_cities2.jpg'>
+            <h5 class="map-descr">
+                The floodplain depicted here in blue represents the 1% and the 0.2% Annual Chance Flood Hazard Areas. The 1% area is commonly referred to as the base flood or 100-year flood area, and the 0.2% chance area as the area affected by a 500-year flood. Further information about the flood hazard areas can be found at the FEMA website and map under the Data section. </h5>            
         </div>
         <div class="container map-container" id="map_2">
-            <img class='map-image' src='images/2_contaminated2.jpg'>
+            <h3 class="map-title"> Potential Sites of Floodplain Contamination</h3>  <img class="map-image" src='images/2_contaminated2.jpg'>
+            <h5 class="map-descr"> Recognized sources of actual or potential exposure to chemical, radioactive, or petroleum contaminants in the St. Louis Metropolitan Area that are within 0.1 miles of the 100-year or 500-year flood zone (depicted in blue). In total there are 1635 of these toxic sites in the St. Louis floodplain. Descriptions of site designations and specific toxins can be found at: <a href="https://www.dnr.mo.gov/molts/">https://www.dnr.mo.gov/molts/</a> and <a href="http://dnr.mo.gov/env/hwp/cleanup.html">http://dnr.mo.gov/env/hwp/cleanup.html</a> </h5>
         </div>
 
         <div class="container map-container" id="map_3">
-            <img class='map-image' src='images/3_residents2.jpg'>
+            <h3 class="map-title"> Areas with the Highest Exposure Risks to Residents</h3>            
+            <img class="map-image" src='images/3_residents2.jpg'>
+            <h5 class="map-descr"> Density of St. Louis area residents that are living within 0.1 mile of identified areas containing toxic materials and the 100-year or 500-year flood zone (depicted in blue). According to the 2010 census data, more than 138,000 people will face higher exposure risks to these toxins with the increasing frequency of floods expected by climate change.   </h5>        
         </div>
 
         <div class="container map-container" id="map_4">
-            <img class='map-image' src='images/4_employed2.jpg'>
+            <h3 class="map-title"> Areas with Highest Exposure Risks to Workers</h3> <img class="map-image" src='images/4_employed2.jpg'>
+            <h5 class="map-descr"> Where St. Louisans work also puts them at risk for increasing exposure to toxins during flooding events. This map shows employment density across St. Louis City and County near contaminated sites within the 100-500 year floodplain, which is shown in blue. Results from this study show that nearly 73,000 people work within 0.1 mile of toxic sites in the floodplain. </h5>        
         </div>
         <div class="container map-container" id="map_5">
-            <img class='map-image' src='images/5_parks2.jpg'>
+            <div><h3 class="map-title"> Exposure Risk in Public Parks</h3></div>    
+
+            <div> <img class="map-image" src='images/5_parks2.jpg'> </div>
+            <h5 class="map-descr"> St. Louis boasts a large number of parks, but a number of these parks are close to contaminated sites in low-lying areas. In total, 1 in 5 parks in the greater St. Louis area is next to a designated contamination site within the floodplain, which is shown in blue. The safety of recreational use by St. Louis residents -- particularly children -- in these public parks deserves further study.   </h5>
         </div>    
     </div>
 
