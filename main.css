@@ -6,8 +6,14 @@ html, body {
 	text-align: center;
 }
 
+#tabbing {
+	width: 30%;
+	float: right;
+}
+
 .btn {
 	background-color: #006CA0;
+	margin-top: 10px;
 }
 .btn:hover {
 	background-color: #1abbff;
@@ -19,7 +25,14 @@ html, body {
 	background-color: #1abbff;
 }
 .map-container {
+	width: 90%;
 	text-align: center
+}
+
+.map-image {
+	width: 100%;
+	border: 50px;
+	border-color: black;
 }
 
 .tabs .indicator {
@@ -28,12 +41,17 @@ html, body {
 
 .tabs .tab a {
 	color: white;
-	background-color: black;
+	background-color: #DEDEDE;
 }
 
 .tabs .tab a:hover {
 	color: #1abbff;
 }
+
+.tabs .indicator {
+	background-color: #1abbff;
+}
+
 
 .main-info {
 	width: 100vh;
@@ -59,9 +77,9 @@ html, body {
 }
 
 #intro {
-	background-image: url("http://cdn.psfk.com/wp-content/uploads/2015/09/4-web-Surfers-on-surfboards-HAZMAT-surfing-DYRLAND-Productions-Michael-Dyrland.jpg");
+	background-image: url('images/archwater_logo.png');
 	background-size: cover;
-	opacity: 0.5;
-    filter: alpha(opacity=40);
+	opacity: 0.8;
+    /*filter: alpha(opacity=40);*/
 
 }
