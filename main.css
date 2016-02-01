@@ -97,5 +97,18 @@ html, body {
 }
 
 #main-page-intro {
-	color: orange;
+    color: black;
+}
+.data-title {
+	color: black;
+	text-align: center;
+	margin: auto;
+	margin-bottom: -5.5%;
+}
+#data-page-text {
+	color: black;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    margin-top: 5%	
 }
