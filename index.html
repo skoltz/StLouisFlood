@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Up With The Waters </title>
+<link rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css">
+<link rel="shortcut icon" type="image/ico" href="images/arch-hazard2.png" />
+
+<link rel="stylesheet" href="main.css">
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/Materialize/dist/js/materialize.min.js"></script> 
+<script src="app.js"></script>
+</head>
+<body>
+
+ <div class="row">
+    <div class="col s12 main-tabs">
+      <ul class="tabs">
+        <li class="tab col s4 m4 l4"><a href="#intro">Intro</a></li>
+        <li class="tab col s4 m4 l4"><a href="#maps">Maps</a></li>
+        <li class="tab col s4 m4 l4"><a href="#data">Data</a></li>
+      </ul>
+    </div>
+    <div id="intro" class="col s12 main-info">
+    	<div class="container intro-text">
+
+    	<h1> Up With The Waters </h1>
+
+    	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi
+
+    	</div>
+
+    </div>
+    <div id="maps" class="col s12 main-info">
+        <div class="map-btn container" data-toggle="map-buttons">
+        <button id="btn-map1" data-target="map_1" class="btn btn btn-primary" type="button">Map1</button>
+        <button id="btn-map2" data-target="map_2" class="btn btn btn-primary" type="button">Map2</button>
+        <button id="btn-map3" data-target="map_3" class="btn btn btn-primary" type="button">Map3</button>
+        <button id="btn-map4" data-target="map_4" class="btn btn btn-primary" type="button">Map4</button>
+        </div>
+        <div class="container map-container" id="map_1">
+            <img src='images/stlcounty.jpg'>
+        </div>
+        <div class="container map-container" id="map_2">
+            <img src='images/contaminatedsites3.jpg'>
+        </div>
+
+        <div class="container map-container" id="map_3">
+            <img src='images/employ.jpg'>
+        </div>
+
+        <div class="container map-container" id="map_4">
+            <img src='images/pparks.jpg'>
+        </div>
+	        <div class="container">
+            <img src='images/arch-hazard.png'>
+        </div>
+    </div>
+    <div id="data" class="col s12 main-info">
+
+    	<div class="container">   
+           <div class="embed-container"><iframe width="850" height="850" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="FEMA's National Flood Hazard Layer (Official)" src="http://fema.maps.arcgis.com/apps/Embed/index.html?webmap=cbe088e7c8704464aa0fc34eb99e7f30&amp;extent=-91.0449,38.2305,-89.6607,39.0755&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=true&amp;details=true&amp;legend=true&amp;active_panel=details&amp;basemap_gallery=true&amp;disable_scroll=true&amp;theme=light"></iframe></div>
+           <style>.embed-container {position: relative; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style>
+
+        </div>
+    </div>
+ </div>
+        
+
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,20 @@
+{
+  "name": "StLouisFloodMaps",
+  "authors": [
+    "Stephen Koltz and Amanda Koltz"
+  ],
+  "description": "maps of hazardous waste sites and flood risk in St Louis, created for NIEHS Climate Change and Environmental Exposures Challenge",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "flood",
+    "st.",
+    "louis",
+    "hazardous",
+    "waste",
+    "environment"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}

@@ -1,0 +1,54 @@
+html, body {
+	height: 100vh;
+	/*overflow: hidden;*/
+}
+.map-btn {
+	text-align: center;
+}
+.map-container {
+	text-align: center
+}
+
+.tabs .indicator {
+	background-color: #33CCFF;
+}
+
+.tabs .tab a {
+	color: white;
+	background-color: black;
+}
+
+.tabs .tab a:hover {
+	color: lime;
+}
+
+.main-info {
+	width: 100vh;
+	height: 100vh;
+	background-color: black;
+}
+
+.row .col.s12 {
+	padding: 0;
+}
+
+.main-info {
+	color: white;
+}
+
+.intro-text {
+	margin-top: 200px;
+
+}
+
+.intro-text h1 {
+	text-align: center;
+}
+
+#intro {
+	background-image: url("http://cdn.psfk.com/wp-content/uploads/2015/09/4-web-Surfers-on-surfboards-HAZMAT-surfing-DYRLAND-Productions-Michael-Dyrland.jpg");
+	background-size: cover;
+	opacity: 0.5;
+    filter: alpha(opacity=40);
+
+}
