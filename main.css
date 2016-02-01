@@ -32,7 +32,6 @@ html, body {
 .map-image {
 	width: 100%;
 	border: 50px;
-	border-color: black;
 }
 
 .tabs .indicator {
@@ -77,9 +76,13 @@ html, body {
 }
 
 #intro {
-	background-image: url('images/archwater_logo.png');
+	background-image: url('images/Amanda_Better2.png');
 	background-size: cover;
-	opacity: 0.8;
+	/*margin: auto;*/
+	/*opacity: 0.8;*/
     /*filter: alpha(opacity=40);*/
+}
 
+#main-page-intro {
+	color: orange;
 }
