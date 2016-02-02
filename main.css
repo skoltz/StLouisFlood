@@ -128,10 +128,12 @@ html, body {
 }
 #data-page-text {
 	color: black;
-    width: 80%;
+    width: 73%;
     margin: auto;
     text-align: left;
-    margin-top: 5%	
+    margin-top: 5%;	
+    font-size: 1.33rem;	
+
 }
 #upwater-img {
 	width: 100%;
