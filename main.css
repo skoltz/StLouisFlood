@@ -109,9 +109,9 @@ html, body {
     color: #333;
     text-align: left;
     margin: auto;
+    padding-top: 1%;
     margin-left: 13%;
     margin-right: 7%;
-    overflow-y: auto;
 }
 .map-page-title {
 	color: black;
