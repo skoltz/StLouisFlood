@@ -4,6 +4,7 @@ html, body {
 }
 .map-btn {
 	text-align: center;
+	margin-top: 6%;
 }
 
 #tabbing {
@@ -26,6 +27,19 @@ html, body {
 .btn:focus {
 	background-color: #1abbff;
 }
+
+.tabs .indicator {
+	background-color: #d87f13;
+}
+.tabs .tab a {
+	color: #d87f13;
+	background-color: white;
+
+}
+.tabs .tab a:hover {
+	color: black;
+}
+
 .map-container {
 	width: 90%;
 	text-align: center
@@ -40,32 +54,16 @@ html, body {
 	color: black;
 	position: relative;
 	margin-bottom: -4.5%;
+	margin-top: 3%;
 }
 .map-descr {
 	color: black;
     text-align: left;
     width: 80%;
     margin: auto;
-    margin-top: -5%;	
+    margin-top: -5%;
+    font-size: 1.33rem;	
 }
-
-.tabs .indicator {
-	background-color: #33CCFF;
-}
-
-.tabs .tab a {
-	color: white;
-	background-color: #DEDEDE;
-}
-
-.tabs .tab a:hover {
-	color: #1abbff;
-}
-
-.tabs .indicator {
-	background-color: #1abbff;
-}
-
 
 .main-info {
 	width: 100vh;
@@ -110,8 +108,8 @@ html, body {
     color: #333;
     text-align: left;
     margin: auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 13%;
+    margin-right: 7%;
     overflow-y: auto;
 }
 .data-title {
@@ -126,6 +124,9 @@ html, body {
     margin: auto;
     text-align: left;
     margin-top: 5%	
+}
+#upwater-img {
+	width: 100%;
 }
 .upwater {
 	position: absolute;
