@@ -29,7 +29,8 @@
             <img id="intro-img" src='images/big_reflection.png'>
         </div>
         <div class="container intro-text">
-    	   <h5 id="main-page-intro"> 
+    	   <h4 id="main-page-title">Climate change, flooding and contamination in the River City</h4>
+           <h5 id="main-page-intro"> 
                 St. Louis, or 'The River City,' and its surrounding counties have one of the richest histories in all of North America, in large part due to the resources provided by the major river systems that come together in this area. However, the same waterways upon which St. Louis is built also cause semi-regular and catastrophic flooding events. 
                 Climate models predict that both the intensity and frequency of these extreme floods will continue to increase over the next 50-100 years due to more heavy precipitation events. Moreover, St. Louis has a legacy of being one of the most heavily contaminated urban areas in the country. The region is host to hundreds of millions of pounds of chemical, heavy metal, and radioactive waste from industrial activity. More frequent flooding and other extreme weather events will likely increase exposure risks to the people of St. Louis with negative impacts on public health.
                 <br>
@@ -47,6 +48,7 @@
         </div>
 
         <div class="container map-container" id="map_1">
+            <h3 class="map-page-title">Maps</h3>
             <h4 class="map-title"> Municipalities in the St. Louis Metropolitan Area</h4>
             <img class="map-image" src='images/1_cities2.jpg'>
             <h5 class="map-descr">
@@ -79,43 +81,49 @@
         <h3 class="data-title">Data and Methods</h3>
         <h5 id="data-page-text">
             The data layers used to build this visualization tool were all easily obtainable from Federal, State, County, and City sources:
-             
-            Flood hazard areas
+            <br></br> 
+            <strong>Flood hazard areas</strong>
+            <br></br>
             The floodplain area for St. Louis City and County were determined using the most recent FEMA flood hazard data layers, which were updated in 2015. We combined the areas designated as 1% chance (100-year) and 0.2% chance (500-year) flood hazard zones for our analyses.
-             
-            https://msc.fema.gov/portal
-             
-            Current locations of chemical and radioactive contamination and potential petroleum leak sites
+            <br> 
+            <a href='https://msc.fema.gov/portal'>https://msc.fema.gov/portal</a> (see map below)
+            <br></br>
+            <strong>Current locations of chemical and radioactive contamination and potential petroleum leak sites</strong>
+            <br></br>
             Locations of Superfund sites, Brownfield sites, Environmental Notice sites, Long-Term Stewardship sites, and underground petroleum storage tanks were provided by the Missouri Department of Natural Resources. Toxic Release Inventory data were provided by the EPA.
-             
-            www.dnr.mo.gov/molts 
-            http://dnr.mo.gov/env/hwp/downloads/hwpet.htm
-             
-            Toxic Release Inventory data (2013 data used here)
-            http://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2014
-             
-             
-            Residential data
+            <br> 
+            <a href="www.dnr.mo.gov/molts">www.dnr.mo.gov/molts</a><br>
+            <a href="http://dnr.mo.gov/env/hwp/downloads/hwpet.html">http://dnr.mo.gov/env/hwp/downloads/hwpet.html</a>
+            <br></br>
+            <strong>Toxic Release Inventory data (2013 data used here)</strong>
+            <br></br>
+            <a href="http://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2014">http://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2014</a>
+            <br></br>
+            <strong>Residential data</strong>
+            <br></br>
             We used 2010 U.S. Census data at the block level to calculate the number of people residing near floodplain areas with potential contamination.
-             
-            https://blogs.esri.com/esri/arcgis/2012/03/21/2010-u-s-census-datasets-are-now-available/
-            http://www.census.gov/geo/maps-data/
-             
-             
-            Employment density
+            <br>
+            <a href="https://blogs.esri.com/esri/arcgis/2012/03/21/2010-u-s-census-datasets-are-now-available/">https://blogs.esri.com/esri/arcgis/2012/03/21/2010-u-s-census-datasets-are-now-available/</a>
+            <br>
+            <a href ="http://www.census.gov/geo/maps-data/">http://www.census.gov/geo/maps-data/</a>
+            <br></br>
+            <strong>Employment density</strong>
+            <br></br>
             We mapped employment density across St. Louis City and County using data from a 2013 Work Area Profile Analysis through the census.gov resource OnTheMap.
-             
-            http://onthemap.ces.census.gov/
-             
-             
-            Public parks
+            <br> 
+            <a href="http://onthemap.ces.census.gov/">http://onthemap.ces.census.gov/</a>
+            <br></br>
+            <strong>Public parks</strong>
+            <br></br>
             Locations of St. Louis City parks were accessed from a St. Louis City-maintained website on mapping resources.
-                        
-            https://www.stlouis-mo.gov/data/
-             
+            <br>            
+            <a href="https://www.stlouis-mo.gov/data/">https://www.stlouis-mo.gov/data/</a>
+            <br>
             St. Louis County also provides mapping resources, including a data layer with parcel-specific information. We included all parcels designated as park space for these analyses.
+            <br>
+            <a href="http://openstlco.stlcogis.opendata.arcgis.com/datasets/fd4893ca99244279adb2ffa206e09ec7_0">http://openstlco.stlcogis.opendata.arcgis.com/datasets/fd4893ca99244279adb2ffa206e09ec7_0</a>
+            <br><br><br>
 
-            http://openstlco.stlcogis.opendata.arcgis.com/datasets/fd4893ca99244279adb2ffa206e09ec7_0
         </h5>
         <div class="container">   
            <div class="embed-container"><iframe width="850" height="850" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="FEMA's National Flood Hazard Layer (Official)" src="http://fema.maps.arcgis.com/apps/Embed/index.html?webmap=cbe088e7c8704464aa0fc34eb99e7f30&amp;extent=-91.0449,38.2305,-89.6607,39.0755&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=true&amp;details=true&amp;legend=true&amp;active_panel=details&amp;basemap_gallery=true&amp;disable_scroll=true&amp;theme=light"></iframe></div>
