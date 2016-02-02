@@ -7,8 +7,10 @@ html, body {
 }
 
 #tabbing {
+	position: absolute;
 	width: 30%;
-	float: right;
+	right: 0;
+	z-index: 1000;
 }
 
 .btn {
@@ -80,8 +82,9 @@ html, body {
 }
 
 .intro-text {
-	margin-top: 200px;
-
+	position: absolute;
+	margin-top: 33%;
+	width: 100%;
 }
 
 .intro-text h1 {
@@ -89,15 +92,27 @@ html, body {
 }
 
 #intro {
-	background-image: url('images/AMANDA_BETTER2.png');
-	background-size: cover;
-	/*margin: auto;*/
+
+/*	background-image: url('images/Amanda_Better2.png');
+	background-size: cover;*/
 	/*opacity: 0.8;*/
     /*filter: alpha(opacity=40);*/
 }
 
+.intro-image { 
+	position: absolute;
+	width: 100%;
+}
+#intro-img {
+	width: 100%;
+}
 #main-page-intro {
-    color: black;
+    color: #333;
+    text-align: left;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow-y: auto;
 }
 .data-title {
 	color: black;
