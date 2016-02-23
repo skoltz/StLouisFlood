@@ -118,7 +118,7 @@ html, body {
     text-align: center;
     margin: auto;
     padding-bottom: 6%;
-    margin-top: -9.6%;
+    margin-top: -10.2%;
 }
 .data-title {
 	color: black;
@@ -133,8 +133,11 @@ html, body {
     text-align: left;
     margin-top: 5%;	
     font-size: 1.33rem;	
-
 }
+.data-strong-title {
+	font-size: 1.6rem;
+}
+
 #upwater-img {
 	padding-top: 2.5%;
 	width: 100%;
