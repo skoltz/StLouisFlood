@@ -1,4 +1,4 @@
-window.location.replace("http://gisdata3.wustl.edu/upwiththewaters");
+window.location.replace("http://upwiththewaters.wustl.edu/");
 
 $(document).ready(function(){
 	// hide show maps

@@ -1,5 +1,5 @@
 # UpWithTheWaters
-Live at: http://skoltz.github.io/upwiththewaters/
+currently redirects to an updated ArcGIS story map at: http://upwiththewaters.wustl.edu/ 
 
 Maps of hazardous waste sites and flood risk in St. Louis, created for NIEHS Climate Change and Environmental Exposures Challenge: http://www.niehs.nih.gov/funding/challenges/climate_change/index.cfm
 
