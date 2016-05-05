@@ -20,7 +20,7 @@ $(document).ready(function(){
 	// 	}, function(){
 	// 		$(this).attr('src', src);
 	// 	});
-	// });
+	// }); 
 
 	// hide show toxic sites for each map on hover...
 	// $('.map-image').each(function(e){
